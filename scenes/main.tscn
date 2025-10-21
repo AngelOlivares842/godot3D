@@ -11,7 +11,7 @@ size = Vector3(60, 2, 60)
 [node name="Node3D" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.9639191, 1.7635465e-08, -0.2661955, 0.24024613, 0.43065286, 0.86995405, 0.11463786, -0.9025177, 0.4151145, 0, 34.28971, 0)
+transform = Transform3D(0.9639191, 1.7635465e-08, -0.2661955, 0.24024613, 0.43065286, 0.86995405, 0.11463786, -0.9025177, 0.41511452, 0, 8.321608, 0)
 shadow_enabled = true
 
 [node name="Ground" type="StaticBody3D" parent="."]
@@ -24,3 +24,8 @@ shape = SubResource("BoxShape3D_4xowi")
 mesh = SubResource("BoxMesh_a202f")
 
 [node name="Player" parent="." instance=ExtResource("1_o5qli")]
+
+[node name="CameraPivot" type="Marker3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 0.6442304, 0.7648315, 0, -0.7648315, 0.6442304, 0, 12.618502, 11.53432)
