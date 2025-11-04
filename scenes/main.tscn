@@ -55,7 +55,7 @@ transform = Transform3D(-0.6455932, 0.76129484, -0.060327813, -0.49860254, -0.36
 transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="CameraPivot"]
-transform = Transform3D(1, 0, 0, 0, 0.9695995, 0.2446982, 0, -0.2446982, 0.9695995, 0, 3.9803176, 16.019686)
+transform = Transform3D(1, 0, 0, 0, 0.9695995, 0.2446982, 0, -0.2446982, 0.9695995, 0, 4.4556684, 15.544335)
 projection = 1
 size = 19.0
 
